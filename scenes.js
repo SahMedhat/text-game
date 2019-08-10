@@ -88,23 +88,86 @@ const scenes = [
 },
 {
     id: 6,
+    text: "You feel yourself being pushed as almost everyone in the market rushes towards the source of the scream. You reach a smaller crowd of people gathering around a tree. A woman is tied to the tree, screaming loudly, her body jerks violently against the restraints. An older woman is standing next to the tree. She speaks to the crowd, 'Today we execute the judgment of the people on Lilyana the witch of the south. If you, my children, have something to say in her favor, speak now, or so be fire to avenge the dead.' The crowd roars. The older woman speaks again, 'I have to remind you, my children, if one of you, just one, were to step up to vouch for her. Lilyana is free, and is your charge. Her past and future crimes are your crimes. Her punishment is your punishment. This shall be her second and last chance. And yours.'",
+    audio: "",
+    visual: "",
+    options: [
+        {
+           text: "Ask someone what Lilyana did",
+           clue: false,
+           nextScene: 8
+        },
+        {  text: "Go back to the blacksmith shop",
+           clue: false,
+           nextScene: 5 
+            
+        }
+    ]
+},
+{
+    id: 7,
     text: "",
     audio: "",
     visual: "",
     options: [
         {
            text: "",
-           clue: true,
+           clue: false,
+           nextScene: 
+        },
+        {  text: "",
+           clue: false,
+           nextScene:  
+            
+        }
+    ]
+},
+{
+    id: 8,
+    text: "You watch the restrained woman, wild and terrified, scream again. You turn to the man next to you and ask nervously, 'What did she do? Are they going to murder her?' The man spares you an irritated glance and tells you almost aggressively, 'it's not murder; it's vengeance. She killed a child and offered his blood to the beasts of the woods. She's a vile witch, deserves what's coming for her.' you",
+    audio: "",
+    visual: "",
+    options: [
+        {
+           text: "Vouch for Lilyana.",
+           clue: false,
            nextScene: 9
         },
-        {  text: "",
+        {  text: "It's not your problem. Go back to the blacksmith shop",
            clue: false,
-           nextScene: 5 
+           nextScene: 7 
             
+        }
+    ]
+},
+{
+    id: 9,
+    text: "You don't know who you are and you don't know who this Lilyana is. But you can't get yourself to do nothing as someone else suffers and dies. You take a second to think of the risk you'll be taking of involving yourself in this, of vouching for someone who could be an insane child murderer. But you decide to do it anyway. You step up and clear your throat, and you try to keep your voice calm and confident, 'I will vouch for Lilyana. I'll be responsible.' The older woman stares at you, appears taken by surprise. The rest of the crowd turn to you. There's disappointment mixed with rage in their eyes. It seems, no one has a shred of doubt that the witch is guilty. And now she is your charge. The older woman nods quietly, and then says in a controlled yet ominous tone, 'Very well then. Our verdict must be unanimous. Lilyana walks free. But, my children, let us remember his face and save it to heart.' The crowd chant, 'We'll remember your face and save it to heart' You watch nervously as an angry man unties Lilyana, who looks at you in disbelief. You",
+    audio: "",
+    visual: "",
+    options: [
+        {
+           text: "Attempt to speak to Lilyana",
+           clue: false,
+           nextScene: 10
+        }
+        
+    ]
+},
+{
+    id: 10,
+    text: "",
+    audio: "",
+    visual: "",
+    options: [
+        {
+           text: "",
+           clue: false,
+           nextScene: 
         },
         {  text: "",
            clue: false,
-           nextScene: 4
+           nextScene:  
             
         }
     ]
