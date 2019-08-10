@@ -113,11 +113,11 @@ const scenes = [
         {
            text: "",
            clue: false,
-           nextScene: 
+           nextScene: undefined 
         },
         {  text: "",
            clue: false,
-           nextScene:  
+           nextScene: undefined
             
         }
     ]
@@ -163,11 +163,11 @@ const scenes = [
         {
            text: "",
            clue: false,
-           nextScene: 
+           nextScene: undefined
         },
         {  text: "",
            clue: false,
-           nextScene:  
+           nextScene: undefined
             
         }
     ]
