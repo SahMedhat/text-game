@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Red Hat Display', sans-serif;
     
 }
 
@@ -56,7 +56,7 @@ flex-direction: column;
 #insight-score {
     margin: 0 auto;
     padding: 0;
-    width: 130px;
+    width: 0;
     height: 30px; 
     background-color: rgb(43, 128, 43);
     float: left;
