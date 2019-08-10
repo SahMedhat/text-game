@@ -148,7 +148,7 @@ const scenes = [
     options: [
         {
            text: "Attempt to speak to Lilyana",
-           clue: false,
+           clue: true,
            nextScene: 10
         }
         
