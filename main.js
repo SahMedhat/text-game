@@ -27,8 +27,8 @@ function showScene(sceneIndex) {
         optionButtons.appendChild(button);
     });
 
-    const insightBar = document.getElementById('insight-bar');
-    insightBar.innerText = state.score;
+    const insightScore = document.getElementById('insight-score');
+    insightScore.innerText = state.score;
 }
 
 function transition(option) {
