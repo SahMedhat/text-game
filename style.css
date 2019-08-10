@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    background-color: rgb(26, 23, 23);
+    max-width: 1300px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#scene-text {
+flex: 1;
+}
+
+#options {
+max-width: 1300px;
+flex: 1;
+display: flex;
+flex-direction: column;
+
+}
+
+.btn {
+    border: none;
+    background-color: rgb(26, 23, 23);
+    color: #f1f1f1;
+    margin-top: 25px;
+
+}
+
+.btn:hover {
+    color: green;
+}
+
+#insight-bar {
+    margin-top: 10px;
+    width: 1300px;
+    height: 30px;
+    background-color: rgb(136, 51, 51);
+    border: black solid;
+    overflow: hidden;
+}
+
+#insight-score {
+    margin: 0 auto;
+    padding: 0;
+    width: 130px;
+    height: 30px; 
+    background-color: rgb(43, 128, 43);
+    overflow: hidden;
+    float: left;
+    
+}
