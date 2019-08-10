@@ -59,7 +59,6 @@ flex-direction: column;
     width: 130px;
     height: 30px; 
     background-color: rgb(43, 128, 43);
-    overflow: hidden;
-    float: left;
+    
     
 }
